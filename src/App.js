@@ -10,7 +10,6 @@ function App() {
    <><div className="header">
       <Navbar />
     </div>
-    <Home/>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/cart" element={<Cart/>}/>
